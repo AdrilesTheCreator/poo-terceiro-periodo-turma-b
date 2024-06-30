@@ -39,6 +39,9 @@ public class AtividadeCinco {
             "Boleto (de um jeito meio tripa)",
             JOptionPane.INFORMATION_MESSAGE);
         break;
+      case "Sair":
+        System.exit(0);
+        break;
       default:
         // eu sou um aluno gasoso !
         System.exit(0);
@@ -71,7 +74,6 @@ public class AtividadeCinco {
       return response.toString();
     } catch (Exception e) {
       e.printStackTrace();
-
       return null;
     }
   }
@@ -120,7 +122,6 @@ public class AtividadeCinco {
       return response.toString();
     } catch (Exception e) {
       e.printStackTrace();
-
       return null;
     }
   }
